@@ -64,7 +64,7 @@ class ProductGridItem extends StatelessWidget {
             );
           },
           child: FadeInImage(
-            placeholder: const AssetImage('assets/images/b4u_small.png'),
+            placeholder: const AssetImage('assets/images/b4u.png'),
             image: NetworkImage(product.imageUrl),
             fit: BoxFit.cover,
           ),
